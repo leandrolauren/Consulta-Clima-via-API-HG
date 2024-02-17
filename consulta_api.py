@@ -30,8 +30,6 @@ def find_weather ():
     imagem_clima = Image.open(caminho_clima)
     imagem_lua = Image.open(caminho_lua)
 
-    #return descricao, temp, cidade, data_consulta, hora_cosulta, condicao, fase_lua, caminho_clima, caminho_lua, imagem_clima, imagem_lua
-
     print(f'A cidade pesquisada: {cidade}. \nClima: {descricao}. \nTemperatura: {temp}°C \nConsulta em {data_consulta} {hora_cosulta}')
 
     temp_fahr = temp * 1.8 + 32
